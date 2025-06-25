@@ -13,7 +13,6 @@
   	],
 	
   	"modules-right": [
-  		"privacy",
   		"wireplumber",
   		"network",
   		"memory",
@@ -98,8 +97,4 @@
   	    "max-volume": 100,
   	    "scroll-step": 0.5
   	},
-
-  	"privacy":{
-  		"icon-size": 18
-  	}
 }
