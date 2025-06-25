@@ -94,7 +94,7 @@
   	"wireplumber": {
   	    "format": "Vol-{volume}%",
   	    "format-muted": "Muted",
-  	    "on-click": "pwvucontrol",
+  	    "on-click": "pavucontrol",
   	    "max-volume": 100,
   	    "scroll-step": 0.5
   	},
