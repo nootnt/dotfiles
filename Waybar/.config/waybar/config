@@ -84,8 +84,8 @@
   	},
   	
   	"network": {
-    	"format-wifi": "Wifi- {essid} ({signalStrength}%)",
-    	"format-ethernet": "Net- {ifname}: {ipaddr}/{cidr}",
+    	"format-wifi": "Wifi: {essid}-{signalStrength}%",
+    	"format-ethernet": "Eth: {ifname}-{ipaddr}/{cidr}",
     	"format-disconnected": "Offline",
     	"tooltip": false
   	},
