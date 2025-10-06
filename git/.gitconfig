@@ -1,5 +1,5 @@
 [core]
-	editor = micro
+	editor = nvim
 [init]
 	defaultBranch = main
 [user]
