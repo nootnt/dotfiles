@@ -181,6 +181,7 @@ layout {
 
 spawn-at-startup "waybar"
 spawn-at-startup "mako"
+spawn-at-startup "xwayland-satelite"
 spawn-at-startup "swaybg" "-m" "fill" "-i" "/home/noot/.config/wallpaper/1.png"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
