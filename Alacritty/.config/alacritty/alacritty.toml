@@ -1,5 +1,15 @@
+[window]
+opacity = 0.90
+
+[scrolling]
+history = 25000
+
+[colors.primary]
+foreground = "#fafafa"
+background = "#151515"
+
 [font]
-size = 11.0
+size = 11.5
 
 [font.bold]
 family = "monospace"
