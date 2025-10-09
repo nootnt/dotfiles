@@ -9,7 +9,7 @@ foreground = "#fafafa"
 background = "#151515"
 
 [font]
-size = 11.5
+size = 12.0
 
 [font.bold]
 family = "monospace"
