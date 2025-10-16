@@ -5,11 +5,11 @@
 	"spacing": 4,
  	
   	"modules-left": [
-    	"niri/workspaces"
+    		"niri/workspaces"
   	],
 	
   	"modules-center": [
-    	"niri/window"
+    		"niri/window"
   	],
 	
   	"modules-right": [
@@ -19,55 +19,55 @@
   		"cpu",
   		"temperature",
   		"battery",
-    	"tray",
-    	"clock"
+    		"tray",
+    		"clock"
   	],
 	
   	"niri/window": {
-    	"max-length": 128
+    		"max-length": 128
   	},
 	
   	"clock": {
   		"interval": 30,
-    	"format": "{:%R}",
-    	"tooltip-format": "{:%d-%m-%Y}\n<tt><small>{calendar}</small></tt>",
-    	"locale": "en_IE.UTF-8",
-    	"calendar":{
-    		"mode-mon-col"  : 3,
-    		"format":{
-    			"today": "<span color='#f7f7f7'><b><u>{}</u></b></span>"
+    		"format": "{:%R}",
+    		"tooltip-format": "{:%d-%m-%Y}\n<tt><small>{calendar}</small></tt>",
+    		"locale": "en_IE.UTF-8",
+    		"calendar":{
+    			"mode-mon-col"  : 3,
+    			"format":{
+    				"today": "<span color='#fdfdfd'><b><u>{}</u></b></span>"
+    			},
     		},
-    	},
-    	"actions": {
-    		"on-click": "mode",
-    		"on-click-right": "shift_reset",
-            "on-scroll-up": "shift_up",
-            "on-scroll-down": "shift_down"
-        }
+    		"actions": {
+			"on-click": "mode",
+    			"on-click-right": "shift_reset",
+            		"on-scroll-up": "shift_up",
+            		"on-scroll-down": "shift_down"
+        	}
   	},
   	
   	"tray": {
   		"icon-size": 18,
-    	"spacing": 4
+    		"spacing": 4
   	},
 	
   	"battery": {
-      	"bat": "BAT0",
-      	"interval": 10,
-      	"states": {
-          	"warning": 30,
-          	"critical": 15
-      	},
-      	"format": "BAT-{capacity}%",
-      	"tooltip-format": "{time}\n{power:0.1f}W\nH: {health}%"
+      		"bat": "BAT0",
+      		"interval": 10,
+      		"states": {
+          		"warning": 35,
+          		"critical": 15
+      		},
+      		"format": "BAT-{capacity}% {power:0.1f}W",
+      		"tooltip-format": "{time}\nHealth: {health}%"
   	},
 
   	"temperature": {
   		//cat /sys/class/thermal/thermal_zone*/type
   		"thermal-zone": 8,
-  		"interval": 10,
+  		"interval": 15,
   		"format": "{temperatureC}°C",
-  		"critical-threshold": 30,
+  		"critical-threshold": 45,
   		"tooltip": false
   	},
 	
@@ -78,23 +78,23 @@
 	},
   	
   	"memory": {
-    	"format": "RAM-{percentage}%",
-    	"tooltip-format": "Used: {used:0.1f}G\nTotal: {total:0.1f}G\nSwap used: {swapUsed:0.1f}G\nSwap total :{swapTotal:0.1f}G"
+    		"format": "RAM-{percentage}%",
+    		"tooltip-format": "Used: {used:0.1f}G\nTotal: {total:0.1f}G\nSwap used: {swapUsed:0.1f}G\nSwap total :{swapTotal:0.1f}G"
   	},
   	
   	"network": {
-    	"format-wifi": "Wifi: {essid}-{signalStrength}%",
-    	"format-ethernet": "Eth: {ifname}-{ipaddr}/{cidr}",
-    	"format-disconnected": "Offline",
-    	"tooltip": false
+    		"format-wifi": "Wifi: {essid}-{signalStrength}%",
+    		"format-ethernet": "Eth: {ifname}-{ipaddr}/{cidr}",
+    		"format-disconnected": "Offline",
+    		"tooltip": false
   	},
 
   	"wireplumber": {
-  	    "format": "Vol-{volume}%",
-  	    "format-muted": "Muted",
-  	    "on-click": "pavucontrol",
-  	    "max-volume": 100,
-  	    "scroll-step": 1,
-  	    "reverse-scrolling": 1 //reverse natural scroll on touchpad
+  	    	"format": "Vol-{volume}%",
+  	    	"format-muted": "Muted",
+  	    	"on-click": "pavucontrol",
+  	    	"max-volume": 100,
+  	    	"scroll-step": 1,
+  	    	"reverse-scrolling": 1 //reverse natural scroll on touchpad
   	},
 }
