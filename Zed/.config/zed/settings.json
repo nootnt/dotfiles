@@ -8,17 +8,16 @@
 // command palette
 {
   "features": {
-    "inline_completion_provider": "none"
+    "edit_prediction_provider": "none"
   },
   "telemetry": {
     "metrics": false
   },
+  "disable_ai": true,
+  "remove_trailing_whitespace_on_save": false,
+  "format_on_save": "off",
   "vim_mode": false,
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "Ayu Dark"
-  }
+  "theme": "Ayu Dark"
 }
