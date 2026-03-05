@@ -35,3 +35,5 @@ fi
 cp 	doas/doas.conf 	/etc/doas.conf
 chown -c root:root 	/etc/doas.conf
 chmod -c 0400 		/etc/doas.conf
+
+cp modprobe.d/hid_apple.conf /etc/modprobe.d
