@@ -12,6 +12,7 @@ promptinit
 
 prompt walters blue
 
+alias sudo='doas'
 alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
 alias neofetch='fastfetch'
