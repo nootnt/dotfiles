@@ -37,3 +37,6 @@ chown -c root:root 	/etc/doas.conf
 chmod -c 0400 		/etc/doas.conf
 
 cp modprobe.d/hid_apple.conf /etc/modprobe.d
+
+cp networkmanager/wifi_random_mac.conf 	/etc/NetworkManager/conf.d
+cp networkmanager/iwd.conf 		/etc/NetworkManager/conf.d
