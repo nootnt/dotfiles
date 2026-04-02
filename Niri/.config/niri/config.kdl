@@ -76,6 +76,7 @@ layout {
     preset-column-widths {
         proportion 0.5
         proportion 0.85
+	proportion 0.15
     }
 
     // preset-window-heights { }
@@ -118,7 +119,7 @@ layout {
         off
 
         width 4
-        active-color "#ffc87f"
+        active-color "#dd5500"
         inactive-color "#505050"
 
         // Color of the border around windows that request your attention.
