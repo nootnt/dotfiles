@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "Roboto Monospace Font";
+    font-family: "Roboto Mono";
     font-size: 14px;
     min-height: 0;
 }
@@ -63,6 +63,11 @@ window#waybar {
         background-color: #ffffff;
         color: black;
     }
+}
+
+#power-profiles-daemon {
+   font-size: 16px;
+   font-weight: bold;
 }
 
 #battery.warning:not(.charging) {
