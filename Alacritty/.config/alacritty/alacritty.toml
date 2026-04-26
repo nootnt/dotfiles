@@ -1,16 +1,16 @@
 [window]
 dimensions = { columns = 140, lines = 40 }
-opacity = 0.95
+opacity = 0.85
 
 [scrolling]
 history = 25000
 
 [colors.primary]
-foreground = "#fafafa"
-background = "#151515"
+foreground = "#ffffff"
+background = "#000000"
 
 [font]
-size = 12.0
+size = 13.0
 
 [font.bold]
 family = "monospace"
