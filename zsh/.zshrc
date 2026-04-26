@@ -15,3 +15,7 @@ alias grep='grep --color=auto'
 alias neofetch='fastfetch'
 alias fetch='fastfetch'
 alias cd..='cd ..'
+
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
